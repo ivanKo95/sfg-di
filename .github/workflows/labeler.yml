@@ -18,5 +18,3 @@ jobs:
 
     steps:
     - uses: actions/labeler@v4
-      with:
-        repo-token: "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"
