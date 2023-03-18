@@ -1,4 +1,4 @@
 backend:
-  any: ['sfg-di/src/main']
+  any: ['src/main/**/*']
 unittest:
-  any: ['sfg-di/src/test']
+  any: ['src/test/**/*']
