@@ -1,5 +1,7 @@
-backend:
-  any: []
+#backend:
 #  any: ['src/main/**/*']
 #unittest:
 #  any: ['src/test/**/*']
+
+workflows:
+  '.github/workflows/**/*'
