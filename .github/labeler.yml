@@ -1,4 +1,8 @@
 backend:
-  - any: [ 'src/main/**/*' ]
+  - any: [ 'src/main/java/**/*' ]
 unittest:
   - any: [ 'src/test/**/*' ]
+frontend:
+  - any: [ 'src/main/UI/**/*' ]
+workflows:
+  - any: [ '.github/workflows/**/*' ]
