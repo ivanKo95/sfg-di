@@ -4,4 +4,4 @@
 #  any: ['src/test/**/*']
 
 workflows:
-  '.github/workflows/**/*'
+ -any: ['.github/workflows/**/*']
