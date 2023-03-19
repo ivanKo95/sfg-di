@@ -1,5 +1,4 @@
 backend:
-  any: [ 'src/main/**/*' ]
+  - any: [ 'src/main/**/*' ]
 unittest:
-  any: [ 'src/test/**/*' ]
-
+  - any: [ 'src/test/**/*' ]
