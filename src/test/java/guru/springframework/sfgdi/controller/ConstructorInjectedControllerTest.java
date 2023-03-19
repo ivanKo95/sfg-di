@@ -1,6 +1,7 @@
 package guru.springframework.sfgdi.controller;
 
 import guru.springframework.sfgdi.service.PropertyInjectedGreetingServiceImpl;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -14,6 +15,6 @@ class ConstructorInjectedControllerTest {
 
   @Test
   void getGreeting() {
-    System.out.println(constructorInjectedController.getGreeting());
+    Assertions.assertEquals("Hello World - Property", constructorInjectedController.getGreeting());
   }
 }
