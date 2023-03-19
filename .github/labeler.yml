@@ -3,5 +3,3 @@ backend:
 unittest:
   any: [ 'src/test/**/*' ]
 
-#workflows:
-# -any: ['.github/workflows/**/*']
