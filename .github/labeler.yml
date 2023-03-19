@@ -1,7 +1,7 @@
-#backend:
-#  any: ['src/main/**/*']
-#unittest:
-#  any: ['src/test/**/*']
+backend:
+  any: [ 'src/main/**/*' ]
+unittest:
+  any: [ 'src/test/**/*' ]
 
-workflows:
- -any: ['.github/workflows/**/*']
+#workflows:
+# -any: ['.github/workflows/**/*']
