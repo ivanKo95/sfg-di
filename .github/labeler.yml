@@ -5,4 +5,4 @@ unittest:
 frontend:
   - any: [ 'src/main/UI/**/*' ]
 workflows:
-  - any: [ '.github/workflows/**/*' ]
+  - any: [ '.github/**/*' ]
