@@ -17,6 +17,6 @@ class PropertyInjectedControllerTest {
 
   @Test
   void getGreetingService() {
-    Assertions.assertEquals("Hello World - Property", propertyInjectedController.getGreeting());
+    Assertions.assertEquals("Hello World - Property1", propertyInjectedController.getGreeting());
   }
 }
