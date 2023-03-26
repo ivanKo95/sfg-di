@@ -9,4 +9,9 @@ public class SetterInjectedGreetingServiceImpl implements GreetingService {
   public String sayGreeting() {
     return "Hello World - Setter";
   }
+
+  @Override
+  public String sayGoodBye() {
+    return null;
+  }
 }
