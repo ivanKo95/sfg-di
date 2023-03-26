@@ -10,4 +10,8 @@ public class PropertyInjectedGreetingServiceImpl implements GreetingService {
     String a = "Property";
     return String.format("Hello World - %s", a);
   }
+
+  public int count(int a, int b) {
+    return a + b;
+  }
 }
