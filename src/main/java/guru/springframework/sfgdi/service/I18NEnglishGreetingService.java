@@ -10,4 +10,9 @@ public class I18NEnglishGreetingService implements GreetingService{
   public String sayGreeting() {
     return "Hello World - EN";
   }
+
+  @Override
+  public String sayGoodBye() {
+    return null;
+  }
 }

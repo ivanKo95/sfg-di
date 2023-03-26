@@ -9,4 +9,9 @@ public class ConstructorGreetingServiceImpl implements GreetingService {
   public String sayGreeting() {
     return "Hello World - Constructor";
   }
+
+  @Override
+  public String sayGoodBye() {
+    return null;
+  }
 }

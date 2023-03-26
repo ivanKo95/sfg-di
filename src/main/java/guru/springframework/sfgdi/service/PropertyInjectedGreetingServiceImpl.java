@@ -8,4 +8,9 @@ public class PropertyInjectedGreetingServiceImpl implements GreetingService {
   public String sayGreeting() {
     return "Hello World - Property";
   }
+
+  @Override
+  public String sayGoodBye() {
+    return null;
+  }
 }

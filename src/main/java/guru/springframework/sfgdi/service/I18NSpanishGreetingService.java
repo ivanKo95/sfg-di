@@ -11,4 +11,9 @@ public class I18NSpanishGreetingService implements GreetingService {
   public String sayGreeting() {
     return "Hola Mundo - ES";
   }
+
+  @Override
+  public String sayGoodBye() {
+    return null;
+  }
 }
